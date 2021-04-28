@@ -1,0 +1,587 @@
+html
+{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before
+{
+    box-sizing: inherit;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    line-height: 1.5;
+}
+.container
+{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn
+{
+    padding: 0px 200px;
+}
+a
+{
+    display: inline-block;
+}
+p
+{
+    color: #575859;
+}
+.header-btn
+{
+    background-color: #FFF5F5;
+}
+.header
+{
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+}
+.header-btn-link-one
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.header-btn ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 120px;
+    margin-right: 180px;
+}
+.header-btn ul li
+{
+    margin-left: 35px;
+    
+}
+.header-btn ul li a:hover 
+{
+    color: blue;
+    border-bottom: solid 2px blue;
+}
+.header-btn ul li a
+{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px ;
+    border-bottom: solid 2px transparent;
+    transition: 0.4s ease;
+}
+.header-btn-link-two
+{
+    text-decoration: none;
+    color: white;
+    background-color: #3988FF;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: 0.4s ease
+}
+.header-btn-link-two:hover
+{
+    background-color: rgb(5, 226, 255);
+}
+.section-one-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.section-one-btn h1
+{
+    font-size: 49px;
+    line-height: 62px;
+    font-weight: 700;
+}
+.section-one-btn h1 span
+{
+    color: rgb(0, 140, 255);
+}
+.section-one-btn p
+{
+    width: 384px;
+}
+.play
+{
+    margin-left: -20px;
+}
+.section-two-btn
+{
+    margin-bottom: 100px;
+}
+.begin h2
+{
+    font-weight: 500;
+    font-size: 33px;
+}
+.begin
+{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-two
+{
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.section-two img
+{
+    margin-right: 70px;
+}
+.bottom
+{
+    margin-bottom: 30px;
+}
+.design
+{
+    margin-bottom: 15px;
+}
+.design span
+{
+    color: red;
+    margin-left: 54%;
+}
+.span-one
+{
+    width: 450px;
+    height: 13px;
+    background-color: #f1d09e;
+    border-radius: 50px;
+}
+.span-one>div
+{
+    width: 80%;
+    height: 13px;
+    background-color: red;
+    border-radius: 50px;
+}
+.design-two
+{
+   
+    margin-bottom: 15px;
+}
+.design-two span
+{
+    color:  orangered;
+    margin-left: 60%;
+}
+.span-two
+{
+    width: 450px;
+    height: 13px;
+    background-color: #f1d09e;
+    border-radius: 50px;
+}
+.span-two>div
+{
+    width: 90%;
+    height: 13px;
+    background-color: orangered;
+    border-radius: 50px;
+}
+.design-three
+{
+    
+    margin-bottom: 15px;
+}
+.design-three span
+{
+    color: rgb(154, 246, 16);
+    margin-left: 48%;
+}
+.span-three
+{
+    width: 450px;
+    height: 13px;
+    background-color: #f1d09e;
+    border-radius: 50px;
+}
+.span-three>div
+{
+    width: 75%;
+    height: 13px;
+    background-color: rgb(154, 246, 16);
+    border-radius: 50px;
+}
+.design-four
+{
+    
+    margin-bottom: 15px;
+}
+.design-four span
+{
+    color: rgb(16, 154, 246);
+    margin-left: 48%;
+}
+.span-four
+{
+    width: 450px;
+    height: 13px;
+    background-color: #f1d09e;
+    border-radius: 50px;
+}
+.span-four>div
+{
+    width: 80%;
+    height: 13px;
+    background-color: rgb(16, 154, 246);
+    border-radius: 50px;
+}
+.section-three-btn ul
+{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.section-three-btn ul li
+{
+    padding: 10px 2px;
+    border: solid 1px rgb(231, 228, 228);
+    transition: 0.4s ease;
+}
+.section-three-btn ul li:hover
+{
+    box-shadow: 0 0 50px rgb(212, 210, 210);
+    transform: scale(1.1);
+}
+.section-three-img
+{
+   margin-left: 25%;
+    width: 100px;
+    height: 100px;
+}
+.section-three-btn ul li img
+{
+    padding: 30px;
+    border: solid 1px transparent;
+    background: rgb(241, 213, 213);
+    border-radius: 50%;
+}
+.section-three-btn ul li h3
+{
+    font-weight: 500;
+    font-size: 22px;
+}
+.section-three-btn ul li p
+{
+    font-size: 14px;
+    width: 210px;
+}
+.section-three-btn ul li a
+{
+    text-decoration: none;
+    color: white;
+    background-color: #3988FF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+.section-three-btn ul li a:hover
+{
+    background-color: rgb(9, 187, 241);
+}
+.begin-two h2
+{
+
+    font-weight: 500;
+    font-size: 33px;
+}
+.begin-two p
+{
+    width: 500px;
+    padding-bottom: 30px;
+}
+.section-four-btn ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-four-btn ul li
+{
+    margin: 20px 0;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    width: 305px;
+    height: 400px;
+    background-image: url(../images/Rectangle\ 43.png);
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.section-four-btn ul li div
+{
+    height: 330px;
+    margin-left: 10%;
+    background-color: #F3F3F3;
+    width: 250px;
+    margin-top: 10%;
+    transition: 0.7s ease;
+}
+.section-four-btn ul li div h3
+{
+
+    padding-top: 55px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.section-four-btn ul li div img
+{
+    border: solid 1px transparent;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.section-four-btn ul li:hover
+{
+    background-image: url(../images/Rectangle\ 26bgimg.svg);
+}
+.img-bg h3
+{
+    transition: 0.5s ease;
+}
+.img-bg p
+{
+    transition: 0.5s ease;    
+}
+.section-four-btn ul li:hover .img-bg
+{
+    background: linear-gradient(180deg, #db345e 0%, #d68499 100%);
+}
+.section-four-btn ul li:hover .img-bg h3
+{
+    color: white;
+}
+.section-four-btn ul li:hover .img-bg p
+{
+    color: white;
+}
+.begin-one h3
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #575859;
+}
+.begin-one h2
+{
+    font-size: 33px;
+    line-height: 48px;
+    font-weight: 500;
+}
+.begin-one p
+{
+    display: inline-block;
+    border: solid 1px gray;
+    padding: 17px;
+}
+.begin-one p>button
+{
+    border: solid 1px transparent;
+    background-color: #3988FF;
+    color: white;
+    padding: 10px 15px;
+    font-size: 17px ;
+    line-height: 28px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.section-five-btn ul 
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.section-five-btn ul li
+{
+    box-shadow: 0 0 20px rgb(179, 176, 176);
+    padding: 0 0 30px 0;
+    transition: 0.4s ease;
+}
+.section-five-btn ul li h3
+{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 37px;
+    font-weight: 500;
+    border-bottom: solid 1px rgb(245, 243, 243);
+    padding: 30px 100px;
+    margin: 0;
+    margin-bottom: 25px;
+    transition: 0.4s ease;
+}
+.section-five-span
+{
+    font-size: 34px;
+} 
+.section-five-span sub
+{
+    font-size: 17px;
+    margin-right: 5px;
+    transition: 0.4s ease;
+}
+.section-five-span-2
+{
+    padding-bottom: 100px;
+    font-size: 16px;
+    color: #575859;
+    transition: 0.4s ease;
+}
+.section-five-btn ul li p
+{
+     color: #575859;
+     font-size: 18px;
+     margin: 8px;
+}
+.section-five-btn ul li a
+{
+    text-decoration: none;
+    color: #3988FF;
+    border: solid 1px #3988FF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: 0.4s ease;
+}
+.section-five-btn ul li:hover
+{
+    transform: scale(1.1);
+    color: white;
+    background: linear-gradient(180deg, #D9315A 0%, #F3678A 100%);
+}
+.section-five-btn ul li:hover .section-five-h3
+{
+    color: white;
+    border-bottom: solid 1px transparent;
+    background: linear-gradient(180deg, #D95374 0%, #D32852 100%);
+}
+.section-five-btn ul li:hover .section-five-link
+{
+    background-color: #3988FF;
+    color: white;
+}
+.section-five-btn ul li:hover .section-five-p
+{
+    color: white;
+}
+.section-five-btn ul li:hover .section-five-span-2
+{
+    color: white;
+} 
+.section-six-btn ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border: solid 1px rgb(194, 192, 192);
+    padding: 50px;
+    margin-bottom: 100px;
+}
+.section-six-btn ul li>p
+{
+    width: 330px;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: italic;
+    color: rgb(49, 48, 48);
+    font-weight: 500;
+}
+.section-six-div
+{
+    display: flex;
+    align-items: center;
+}
+.section-six-div img
+{
+    margin-right: 15px;
+}
+.section-six-div h4
+{
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 19px;
+    line-height: 32px;
+}
+.section-six-div p
+{
+    margin: 0;
+    font-size: 17px;
+    line-height: 25px;
+    font-style: normal;
+}
+.footer-btn
+{
+   
+    background-color: #050C26;
+    color: white;
+}
+.end-footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+.footer-btn p
+{
+    color: white;
+    width:280px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.footer-btn ul
+{
+    list-style-type: none;
+}
+.footer-btn ul li
+{
+    padding-bottom: 5px;
+}
+.end-footer h3
+{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.footer-link-1 
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: 0.2s ease;
+}
+.footer-link-1:hover
+{
+    background-color: #fff;
+    color: #050C26;
+    border-radius: 10px;
+}
+.footer-link
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.4s ease;
+}
+.footer-link:hover
+{
+    background-color: white;
+    color: rgb(0, 153, 255);
+}
